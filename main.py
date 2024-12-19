@@ -16,6 +16,7 @@ def find_lowercase_vowel(msg: str):
     """
     for index, char in enumerate(msg):
         if char in 'aeiou':
+            print("there's a char in aeiou")
             return index
         else:
             print("heyIchangedThis")
