@@ -14,6 +14,7 @@ def find_lowercase_vowel(msg: str):
     Return the index of the first lowercase vowel (a, e, i, o, u) in msg, 
     or the length of msg if it does not contain any lowercase vowels.
     """
+    print("i think i fixed it")
     for index, char in enumerate(msg):
         if char in 'aeiou':
             print("there's a char in aeiou")
